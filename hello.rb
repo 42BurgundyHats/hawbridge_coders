@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "Hawbridge Coders"
+  erb :index
 end
 
 get '/hello' do

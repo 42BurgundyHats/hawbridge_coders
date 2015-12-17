@@ -4,6 +4,11 @@ GEM
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.4)
+    rails_stdout_logging (0.0.4)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -14,6 +19,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rails_12factor
   sinatra
 
 BUNDLED WITH
